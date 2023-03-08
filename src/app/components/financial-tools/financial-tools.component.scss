@@ -1,0 +1,657 @@
+.financial-tools {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #F3F3F5;
+	background-image: url('../../../assets/images/Color_Blobbs_Tools.svg');
+	background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	max-width: 1440px;
+	width: 1440px;
+
+	.no-swiper-content {
+
+		.data-header {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 52px;
+			color: #2B4059;
+			margin-bottom: 16px;
+			white-space: nowrap;
+		}
+
+		.data-desc {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 32px;
+			color: #757E95;
+			margin-bottom: 24px;
+		}
+
+		.data-price {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			text-decoration-line: line-through;
+			color: #EC464C;
+			margin-bottom: 24px;
+
+		}
+
+		.free {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 32px;
+			color: #2B4059;
+
+
+			span {
+				position: relative;
+				font-weight: 400;
+				font-size: 22px;
+				line-height: 34px;
+				text-align: center;
+				color: #FFFFFF;
+				z-index: 99;
+				margin-right: 8px;
+				margin-left: 8px;
+
+				img {
+					position: absolute;
+					top: 2px;
+					left: -8px;
+					width: 77px;
+				}
+			}
+		}
+
+		.text {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+
+			.header-wrapper {
+				display: flex;
+				justify-content: flex-start;
+				width: 100%;
+				position: relative;
+
+				img {
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+			}
+		}
+
+
+		.contents {
+
+			margin-top: 20px;
+
+			.content {
+				padding: 15px;
+				width: 320px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 16px;
+				isolation: isolate;
+				margin-bottom: 20px;
+				background: rgba(255, 255, 255, 0.48);
+				border-radius: 8px;
+			}
+		}
+	}
+
+	app-swiper {
+		position: relative;
+	}
+
+	::ng-deep {
+		.swiper {
+			position: unset !important;
+
+		}
+	}
+
+	.show-buttons {
+		position: unset !important;
+	}
+
+
+	.swiper {
+		width: calc(100% - 200px);
+		height: 496px;
+		margin-top: 80px;
+		background: rgba(255, 255, 255, 0.48);
+		border-radius: 8px;
+		overflow: visible !important;
+	}
+
+	.feautured {
+		padding-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		width: 525px;
+		align-items: center;
+
+		hr {
+			width: 92px;
+			height: 0px;
+		}
+
+		.feautured-text {
+
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 34px;
+			text-align: center;
+			color: #757E95;
+		}
+	}
+
+	.why-trade {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		white-space: nowrap;
+		margin-bottom: 40px;
+
+		.info-section {
+			display: flex;
+			flex-direction: column;
+
+			.row-1 {
+
+				display: flex;
+			}
+
+			.row-2 {
+				display: flex;
+			}
+
+			.info {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				padding: 16px 24px;
+				gap: 24px;
+				isolation: isolate;
+				margin: 28px;
+				width: 372px;
+				height: 120px;
+				background: #FFFFFF;
+				border-radius: 8px;
+				position: relative;
+
+				.icon {
+					padding: 0 24px;
+					border-right: 1px solid #F3F3F5;
+					width: 64px;
+					height: 88px;
+				}
+
+				.text {
+					display: flex;
+					flex-direction: column;
+
+
+
+					.leverage-bottom {
+						display: none;
+					}
+
+					.text-1 {
+						margin-bottom: 10px;
+						font-size: 18px;
+						line-height: 32px;
+						font-weight: 600;
+					}
+
+					.text-2 {
+						font-size: 18px;
+						line-height: 32px;
+						font-weight: 400;
+					}
+				}
+
+				.checkmark-icon {
+					position: absolute;
+					top: 24px;
+					right: 24px;
+				}
+			}
+		}
+
+		.header-2 {
+			margin-bottom: 40px;
+
+			.header-text {
+				font-style: normal;
+				font-weight: 600;
+				font-size: 44px;
+				line-height: 64px;
+				text-align: center;
+				color: #2B4059;
+
+				span {
+					color: red;
+				}
+			}
+		}
+	}
+
+	.button-wrapper {
+		margin: 80px 0;
+
+
+		.join-button {
+			width: 172px;
+			height: 48px;
+			cursor: pointer;
+			background: #5090FC;
+			border-radius: 8px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			border: none;
+			line-height: 24px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+	}
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 80px;
+		width: 772px;
+
+		.header-text {
+			font-weight: 600;
+			font-size: 44px;
+			line-height: 64px;
+			text-align: center;
+		}
+
+		.header-desc {
+			font-size: 18px;
+			line-height: 32px;
+			text-align: center;
+			padding-top: 32px;
+			color: #757E95;
+
+		}
+	}
+
+	.no-swiper-content {
+		display: none;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1280px) {
+	.financial-tools {
+		width: 1280px;
+		max-width: 1280px;
+
+		.why-trade {
+			.info-section {
+				width: 1280px;
+				max-width: 1280px;
+
+				.info {
+					width: 328px;
+
+					.text {
+						.text-1 {
+							.leverage-top {
+								display: none;
+							}
+
+						}
+
+						.text-2 {
+							.leverage-bottom {
+								display: inline;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.header {
+			.header-text {
+				font-size: 40px;
+				line-height: 64px;
+			}
+		}
+	}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+	.financial-tools {
+		width: 992px;
+		max-width: 992px;
+
+		.swiper {
+			width: 720px;
+			height: 386px;
+		}
+
+		.header {
+			width: 532px;
+			padding-bottom: 296px;
+
+			.header-text {
+				font-size: 32px;
+				line-height: 48px;
+			}
+
+			.header-desc {
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+
+		.why-trade {
+			.info-section {
+				width: 992px;
+				max-width: 992px;
+				flex-direction: row;
+				justify-content: center;
+
+				.row-1 {
+					flex-direction: column;
+
+					.info {
+						width: 348px;
+						height: 104px;
+						margin: 17px;
+						padding: 0;
+
+						.icon {
+							width: 64px;
+							height: 64px;
+
+							img {
+								width: 64px;
+								height: 64px;
+							}
+						}
+
+						.text-1 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+
+						.text-2 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+					}
+				}
+
+				.row-2 {
+					flex-direction: column;
+
+					.info {
+						width: 348px;
+						height: 104px;
+						margin: 17px;
+						padding: 0;
+
+						.icon {
+							width: 64px;
+							height: 64px;
+
+							img {
+								width: 64px;
+								height: 64px;
+							}
+						}
+
+						.text-1 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+
+						.text-2 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+
+
+
+	.financial-tools {
+		width: 768px;
+		max-width: 768px;
+
+		.swiper {
+			width: 720px;
+			height: 386px;
+		}
+
+		.header {
+			width: 532px;
+			padding-bottom: 296px;
+
+			.header-text {
+				font-size: 32px;
+				line-height: 48px;
+			}
+
+			.header-desc {
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+
+		.why-trade {
+			.info-section {
+				width: 768px;
+				max-width: 768px;
+				flex-direction: row;
+
+
+				.row-1 {
+					flex-direction: column;
+
+					.info {
+						width: 348px;
+						height: 104px;
+						margin: 17px;
+						padding: 0;
+
+						.icon {
+							width: 64px;
+							height: 64px;
+
+							img {
+								width: 64px;
+								height: 64px;
+							}
+						}
+
+						.text-1 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+
+						.text-2 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+					}
+				}
+
+				.row-2 {
+					flex-direction: column;
+
+
+					.info {
+						width: 348px;
+						height: 104px;
+						margin: 17px;
+						padding: 0;
+
+
+
+						.icon {
+							width: 64px;
+							height: 64px;
+
+							img {
+								width: 64px;
+								height: 64px;
+							}
+						}
+
+						.text-1 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+
+						.text-2 {
+							font-size: 16px;
+							line-height: 24px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {
+	.financial-tools {
+		width: 600px;
+		max-width: 600px;
+		background-image: url('../../../assets/images/375_img/Color_Blobbs_Tools.png');
+
+		.header {
+			width: 343px;
+			padding-bottom: 40px;
+
+			.header-text {
+				width: 343px;
+				font-size: 24px;
+				line-height: 36px;
+			}
+		}
+
+
+
+		.swiper {
+			display: none;
+		}
+
+		.feautured {
+			width: 375px;
+		}
+
+		.no-swiper-content {
+			display: flex;
+		}
+
+		.why-trade {
+
+			.header-2 {
+				.header-text {
+					width: 343px;
+					font-size: 24px;
+					line-height: 36px;
+				}
+			}
+
+			.info-section {
+				width: 600px;
+				max-width: 600px;
+				align-items: center;
+				flex-direction: column;
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 425px) {
+	.financial-tools {
+		width: 425px;
+		max-width: 425px;
+
+		.why-trade {
+			.info-section {
+				width: 425px;
+				max-width: 425px;
+
+			}
+		}
+
+
+	}
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 375px) {
+	.financial-tools {
+		width: 375px;
+		max-width: 375px;
+		background-image: url('../../../assets/images/375_img/Color_Blobbs_Tools.png');
+
+		.why-trade {
+			.info-section {
+				width: 375px;
+				max-width: 375px;
+
+				.row-1 {
+					width: 375px;
+				}
+
+				.row-2 {
+					width: 375px;
+				}
+			}
+		}
+	}
+
+
+
+
+}

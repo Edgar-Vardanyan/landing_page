@@ -1,0 +1,282 @@
+.slide-1-min {
+  position: absolute;
+  right: 40px;
+  top: -250px;
+  display: none;
+
+  .laptop-content {
+    position: absolute;
+    right: 85px;
+    top: 25px;
+    width: 470px;
+  }
+}
+
+::ng-deep {
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-button-prev {
+    color: #5090FC;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .swiper-button-next {
+    color: #5090FC;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    width: 472px;
+    height: 444px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+
+.data-header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52px;
+  color: #2B4059;
+  margin-bottom: 16px;
+}
+
+.data-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #757E95;
+  margin-bottom: 24px;
+}
+
+.data-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  color: #EC464C;
+  margin-bottom: 24px;
+
+}
+
+.free {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2B4059;
+
+  .bold {
+    font-size: 18px;
+    line-height: 32px;
+    color: #2B4059;
+    font-weight: 600;
+  }
+
+
+  span {
+    position: relative;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 99;
+    margin-right: 8px;
+
+
+
+    img {
+      position: absolute;
+      top: 0px;
+      left: -16px;
+      width: 77px;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 400px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  z-index: 9999;
+  position: absolute;
+}
+
+.left {
+  transform: rotate(90deg);
+  top: 200px;
+  left: -70px;
+}
+
+.right {
+  transform: rotate(-90deg);
+  right: -70px;
+  top: 200px;
+}
+
+.slide-1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 64px;
+
+  .laptop-content {
+    position: absolute;
+    top: 90px;
+    left: 89px;
+    height: 265px;
+    width: 471px;
+  }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1280px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .slide-1 {
+    .laptop-content {
+      top: 83px !important;
+      left: 66px !important;
+      height: 202px !important;
+      width: 361px !important;
+    }
+  }
+
+  .slide-1 {
+    display: none !important;
+  }
+
+
+
+  ::ng-deep {
+    .financial-tools {
+      .swiper-slide {
+        height: 385px !important;
+      }
+    }
+
+  }
+
+
+  .text {
+    align-items: center !important;
+    width: 576px !important;
+    height: 48px !important;
+  }
+
+  .data-desc {
+    text-align: center !important;
+  }
+
+  .right {
+    right: 20px !important;
+    top: -123px !important;
+  }
+
+  .left {
+    left: 20px !important;
+    top: -123px !important;
+  }
+
+  .slide-1-min {
+    display: block !important;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .slide-1 {
+    display: none !important;
+  }
+
+  ::ng-deep {
+    .financial-tools {
+      .swiper-slide {
+        height: 385px !important;
+      }
+    }
+
+  }
+
+
+  .text {
+    align-items: center !important;
+    width: 576px !important;
+    height: 48px !important;
+  }
+
+  .data-desc {
+    text-align: center !important;
+  }
+
+  .right {
+    right: 20px !important;
+    top: -123px !important;
+  }
+
+  .left {
+    left: 20px !important;
+    top: -123px !important;
+  }
+
+  .slide-1-min {
+    display: block !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 375px) {}

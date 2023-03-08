@@ -1,0 +1,334 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.4);
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	width: 472px;
+
+
+	.form-header {
+		color: #2B4059;
+		font-size: 22px;
+		font-weight: 500;
+		padding: 36px 0 40px 0;
+		font-style: normal;
+	}
+
+	.name {
+
+		display: flex;
+
+		.input-wrapper {
+			position: relative;
+			margin: 0 18px;
+
+			label {
+				position: absolute;
+				color: #757E95;
+				left: 16px;
+				top: 8px;
+				font-size: 12px;
+			}
+
+			input {
+				box-sizing: border-box;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				padding: 8px 16px;
+				gap: 8px;
+				width: 194px;
+				height: 56px;
+				background: #FFFFFF;
+				border: 1px solid #5090FC;
+				border-radius: 8px;
+			}
+		}
+
+	}
+
+	.phone-wrapper {
+		display: flex;
+		flex-direction: column;
+		margin-top: 36px;
+
+		.input-wrapper {
+			display: flex;
+		}
+
+		.country-code {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding: 16px;
+			width: 115px;
+			background: #FFFFFF;
+			border-radius: 8px 0px 0px 8px;
+			font-size: 16px;
+			font-weight: 400;
+
+			img {
+				cursor: pointer;
+			}
+		}
+
+		input {
+
+
+
+			&::-webkit-outer-spin-button,
+			&::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+
+
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 16px 10px;
+			gap: 10px;
+			width: 278px;
+			height: 56px;
+			background: #FFFFFF;
+			border: 1px solid #5090FC;
+			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+			border-radius: 0px 8px 8px 0px;
+
+		}
+	}
+
+	.email-wrapper {
+		margin: 36px 28px 24px 28px;
+
+		input {
+
+			&::placeholder {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 24px;
+				color: #757E95;
+			}
+
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			width: 416px;
+			height: 56px;
+			padding: 8px 16px;
+			background: #FFFFFF;
+			border: 1px solid #5090FC;
+			box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+			border-radius: 8px;
+			box-sizing: border-box;
+		}
+	}
+
+	.account-desc {
+		width: 416px;
+		height: 108px;
+
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 18px;
+		color: #757E95;
+
+
+		a {
+			color: #5090FC;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+
+	.button-wrapper {
+		margin: 48px 0;
+
+		.open-account-button {
+			cursor: pointer;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			text-align: center;
+			color: #FFFFFF;
+			padding: 16px 0px;
+			gap: 10px;
+			width: 416px;
+			height: 56px;
+			background: #EC464C;
+			border-radius: 8px;
+			border: none;
+		}
+	}
+
+	.validation-error {
+		font-family: 'SF Pro Text';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 14px;
+		letter-spacing: -0.08px;
+		margin: 10px;
+		color: #EC464C;
+	}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1280px) {
+	.form {
+		width: 416px;
+
+		.button-wrapper {
+			.open-account-button {
+				width: 360px;
+			}
+		}
+
+		.account-desc {
+			width: 360px;
+			height: 126px;
+		}
+
+		.phone-wrapper {
+			input {
+				width: 221px;
+			}
+		}
+
+		.email-wrapper {
+			input {
+				width: 369px;
+			}
+		}
+	}
+
+	#first-name {
+		width: 166px;
+	}
+
+	#second-name {
+		width: 166px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+	.form {
+		width: 348px;
+
+		.button-wrapper {
+			.open-account-button {
+				width: 292px;
+			}
+		}
+
+		.phone-wrapper {
+
+			input {
+				width: 161px;
+			}
+		}
+
+		.email-wrapper {
+			input {
+				width: 308px;
+			}
+		}
+
+
+		.account-desc {
+			width: 292px;
+			height: 144px;
+		}
+	}
+
+	#first-name {
+		width: 136px;
+	}
+
+	#second-name {
+		width: 136px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {
+	.form {
+		width: 520px;
+
+
+		.phone-wrapper {
+
+			.validation-error {
+				top: 344px;
+				right: 87px;
+			}
+		}
+
+		.account-desc {
+			width: 311px;
+			height: 144px;
+		}
+
+		.button-wrapper {
+			.open-account-button {
+				width: 311px;
+			}
+		}
+	}
+
+	#first-name {
+		margin-bottom: 32px;
+		width: 311px;
+	}
+
+	#second-name {
+		width: 311px;
+	}
+
+	.name {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.validation-error {
+		position: absolute;
+		top: 52px;
+	}
+
+	.input-wrapper {
+		position: relative;
+	}
+
+
+	.email-wrapper {
+		position: relative;
+	}
+
+
+}
+
+@media (max-width: 425px) {
+	.form {
+		width: 395px;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 375px) {
+	.form {
+		width: 343px;
+	}
+}

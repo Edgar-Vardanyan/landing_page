@@ -1,0 +1,59 @@
+<section class="featured-companys">
+
+	<div class="companys">
+
+		<div class="company">
+			<img src="../../../assets/images/Reuters_Logo.png" alt="">
+		</div>
+
+		<div class="company">
+			<img src="../../../assets/images/Yahoo_Finance_Logo.png" alt="">
+		</div>
+
+		<div class="company">
+			<img src="../../../assets/images/FXStreet_logo.png" alt="">
+		</div>
+
+		<div class="company">
+			<img src="../../../assets/images/NASDAQ_Logo.png" alt="">
+		</div>
+
+		<div class="company">
+			<img src="../../../assets/images/FXEmpire_logo.png" alt="">
+		</div>
+
+		<div class="company">
+			<img src="../../../assets/images/Investing_Logo.png" alt="">
+		</div>
+
+	</div>
+
+
+	<div class="swiper-container">
+
+		<swiper
+	[slidesPerView]="3"
+	[spaceBetween]=""
+	[pagination]="{
+		clickable: true
+	}"
+	>
+	
+	<ng-template swiperSlide *ngFor="let data of companyData; let i = index">
+	
+		<div class="companys">
+	
+			<div class="company">
+					<img [src]="data.imgPath" alt="">
+			</div>
+			
+		</div>
+	
+	</ng-template>
+	
+	</swiper>
+
+
+	</div>
+
+</section>

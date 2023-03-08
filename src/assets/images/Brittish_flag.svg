@@ -1,0 +1,38 @@
+<svg width="42" height="32" viewBox="0 0 42 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_2454_35911)">
+<rect x="4" y="3" width="34" height="24" rx="3" fill="#D8D8D8"/>
+<mask id="mask0_2454_35911" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="3" width="34" height="24">
+<rect x="4" y="3" width="34" height="24" rx="3" fill="white"/>
+</mask>
+<g mask="url(#mask0_2454_35911)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.1484 11H40.9995V5.65533L32.1484 11Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.1641 19L40.9993 24.3079V19H32.1641Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.3496 3V10.3046L36.4466 3H24.3496Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.3496 27H36.5245L24.3496 19.6859V27Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 19V24.4042L9.94966 19H1Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.65234 27.0002H17.6789V19.738L5.65234 27.0002Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.53125 3L17.6781 10.2973V3H5.53125Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 10.9999H9.89142L1 5.65833V10.9999Z" fill="#212F64"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 17.4V18.9999H9.94966L1 24.4041V27L14.3333 18.9999H17.3147L3.98148 27H5.65194L17.6785 19.7378V27H19V17.4H1Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23 17.4V27H24.3497V19.6859L36.5246 27H41L27.6667 18.9999H30.6481L41 25.2111V24.3078L32.1647 18.9999H41V17.4H23Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.6785 3V10.2973L5.53166 3H1L14.3333 10.9999H11.352L1 4.78884V5.65838L9.89144 10.9999H1V12.6H19V3H17.6785Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M41 3L27.6667 10.9999H24.6853L38.0185 3H36.4467L24.3497 10.3046V3H23V12.6H41V10.9999H32.1489L41 5.65526V3Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19 3V12.6H1V17.4H19V27H23V17.4H41V12.6H23V3H19Z" fill="#CB2026"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 3V4.78884L11.3519 10.9999H14.3333L1 3Z" fill="#CB2026"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.0188 3L24.6855 10.9999H27.6669L41.0002 3H38.0188Z" fill="#CB2026"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.3333 19L1 27H3.98148L17.3147 19H14.3333Z" fill="#CB2026"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27.666 19L40.9993 27V25.2111L30.6475 19H27.666Z" fill="#CB2026"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2454_35911" x="0" y="0" width="42" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2454_35911"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2454_35911" result="shape"/>
+</filter>
+</defs>
+</svg>

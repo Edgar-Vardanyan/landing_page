@@ -1,0 +1,50 @@
+<form class="form" [formGroup]="openAccountForm">
+
+	<span class="form-header">Open a Trading Account</span>
+
+	<div class="name">
+
+		<div class="input-wrapper">
+			<label for="first-name">First Name</label>
+			<input id="first-name" type="text" formControlName="firstName" name="firstName">
+			<span class="validation-error" *ngIf="openAccountForm.get('firstName')?.errors && openAccountForm.get('firstName')?.touched">Invalid Name</span>
+		</div>
+	
+		<div class="input-wrapper">
+		<label for="second-name">Second Name</label>
+		<input id="second-name" type="text" formControlName="secondName">
+		<span class="validation-error" *ngIf="openAccountForm.get('secondName')?.errors && openAccountForm.get('secondName')?.touched">Invalid Sec. Name</span>
+		</div>
+
+	</div>
+
+	<div class="phone-wrapper">
+		<div class="input-wrapper">	
+			<span class="country-code">
+			<img src="../../../assets/images/GBnav_eng.svg" alt="">
+			+44
+			<img src="../../../assets/images/arrow.svg" alt="">
+		</span>
+		<input id="phone" type="number" formControlName="phone">
+	</div>
+	
+		<span class="validation-error" *ngIf="openAccountForm.get('phone')?.errors && openAccountForm.get('phone')?.touched">Invalid Phone</span>
+
+	</div>
+
+	<div class="email-wrapper">
+		<input placeholder="Email" id="email" type="text" formControlName="email">
+		<span class="validation-error" *ngIf="openAccountForm.get('email')?.errors && openAccountForm.get('email')?.touched">Invalid Email</span>
+
+	</div>
+
+	<span class="account-desc">
+	To improve your trading experience, we would like to notify you of market events and extreme price movements. By signing up, you also declare you read, understood, and accept our <a>Privacy Policy </a>and you consent to receive newsletters, special offers and be contacted by HYCM representatives via phone or e-mail. You can opt-out any time you wish to.
+	</span>
+
+	<div class="button-wrapper">
+		<button class="open-account-button">Open Account</button>
+	</div>
+
+
+</form>

@@ -1,0 +1,157 @@
+<div class="navbar-wrapper">
+<nav class="navbar">  
+
+  <div class="nav-left-wrapper">
+
+    <div class="logo-wrapper">
+      <img src="../assets/images/Logonav_logo.svg" alt="Nav_Logo">
+    </div>
+
+    <div class="social-icons-wrapper">
+      <div class="social-icons">
+
+        <div class="social-icon">
+          <img src="../assets/images/Pathnav_facebook.svg" alt="Facebook">
+        </div>
+
+        <div class="social-icon">
+          <img src="../assets/images/Pathnav_twitter.svg" alt="Twitter">
+        </div>
+
+        <div class="social-icon">
+          <img src="../assets/images/Group 46nav_linkdin.svg" alt="LinkdIn">
+        </div>
+
+        <div class="social-icon">
+          <img src="../assets/images/instagramnav_insta.svg" alt="Instagram">
+        </div>
+
+        <div class="social-icon">
+          <img src="../assets/images/Shapenav_youtube.svg" alt="Youtube">
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+
+   
+
+    <div class="nav-rigth-wrapper">
+
+      <div class="download-wrapper">
+
+        <div class="google-play">
+
+          <button class="app-button">
+            <img src="../../../assets/images/Groupgoogle_play.svg" alt="">
+            <div class="text">
+              <span class="text-1">Get It On</span>
+              <span class="text-2">Google Play</span>
+            </div>
+          </button>
+
+        </div>
+  
+        <div class="app-store">
+
+          <button class="app-button">
+          <img src="../../../assets/images/Groupapp_store.svg" alt="">
+            <div class="text">
+              <span class="text-1">Download On The</span>
+              <span class="text-2">App Store</span>
+            </div>
+          </button>
+        </div>
+  
+      </div>
+
+      <div class="button-wrapper">
+        <span class="vertical-line" *ngIf="screenWidth !== 'sm' && screenWidth !== 'md'"></span>
+        <button>Get Started</button>
+        <span class="vertical-line" *ngIf="screenWidth !== 'sm' && screenWidth !== 'md'"></span>
+      </div>
+
+      <div class="language">
+        <img src="../assets/images/GBnav_eng.svg" alt="Eng">
+        <p>Eng</p>
+      </div>
+
+
+      <div class="dropdown-wrapper">
+        <button mat-button [matMenuTriggerFor]="menu">
+          <img src="../../../assets/images/header_menu.svg" alt="">
+        </button>
+          <mat-menu #menu="matMenu" class="menu" yPosition="below" xPosition="before">
+
+            <div class="button-wrapper margin-none dropdown-button">
+              <button>Get Started</button>
+            </div>
+            
+            <div class="download-wrapper dropdown">
+
+              <div class="google-play">
+      
+                <button class="app-button">
+                  <img src="../../../assets/images/Groupgoogle_play.svg" alt="">
+                  <div class="text">
+                    <span class="text-1">Get It On</span>
+                    <span class="text-2">Google Play</span>
+                  </div>
+                </button>
+
+              </div>
+        
+              <div class="app-store">
+                <button class="app-button">
+                <img src="../../../assets/images/Groupapp_store.svg" alt="">
+                <div class="text">
+                <span class="text-1">Download On The</span>
+                <span class="text-2">App Store</span>
+             </div>
+                </button>
+              </div>
+        
+            </div>
+
+            <div class="follow-us">
+              <hr>
+              <span>Follow Us</span>
+              <hr>
+            </div>
+
+            <div class="social-icons-wrapper dropdown">
+              <div class="social-icons">
+        
+                <div class="social-icon">
+                  <img src="../../../assets/images/facebookcolor.svg" alt="Facebook">
+                </div>
+        
+                <div class="social-icon">
+                  <img src="../../../assets/images/Pathcolor_twitter.svg" alt="Twitter">
+                </div>
+        
+                <div class="social-icon">
+                  <img src="../../../assets/images/Group 46color_linkdin.svg" alt="LinkdIn">
+                </div>
+        
+                <div class="social-icon">
+                  <img src="../../../assets/images/instagramcolor.svg" alt="Instagram">
+                </div>
+        
+                <div class="social-icon">
+                  <img src="../../../assets/images/Shapecolor.svg" alt="Youtube">
+                </div>
+                
+              </div>
+            </div>
+
+          </mat-menu>
+      </div>
+
+    </div>
+
+    
+</nav>
+
+</div>

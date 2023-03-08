@@ -1,0 +1,112 @@
+<section class="open-account">
+	<div class="desc-form-wrapper">
+
+	<div class="description-wrapper">
+		<div class="description">
+			<span class="main-desc">Want to start trading Forex with an award-winning broker you can trust?</span>
+			<span class="second-desc">Get access to the largest financial market in the world and trade currency pairs like EUR/USD, USD/JPY, GBP/USD, and many more!</span>
+		</div>
+	</div>
+
+	<div class="form-wrapper">
+		<app-open-account-form></app-open-account-form>
+	</div>
+
+</div>
+
+<div class="currecies">
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexeur.svg" alt="">
+		<span class="currency-text">EUR/USD</span>
+	</div>
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexcad.svg" alt="">
+		<span class="currency-text">CAD/JPY</span>
+	</div>
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexusd.svg" alt="">
+		<span class="currency-text">GBP/USD</span>
+	</div>
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexeurchf.svg" alt="">
+		<span class="currency-text">EUR/CHF</span>
+	</div>
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexaud.svg" alt="">
+		<span class="currency-text">AUD/USD</span>
+	</div>
+
+	<div class="currency">
+			<img src="../../../assets/images/Forexnok.svg" alt="">
+		<span class="currency-text">NOK/JPY</span>
+	</div>
+	
+</div>
+
+
+<div class="swiper-wrapper">
+	<swiper
+	[slidesPerView]="3"
+	[spaceBetween]=""
+	[pagination]="true"
+	>
+	
+	<ng-template swiperSlide *ngFor="let data of currencyData; let i = index">
+	
+		<div class="currecies">
+	
+			<div class="currency">
+					<img [src]="data.imgPath" alt="">
+				<span class="currency-text">{{data.innerText}}</span>
+			</div>
+			
+		</div>
+	
+	</ng-template>
+	
+	</swiper>
+	
+</div>
+
+</section>
+
+
+
+<!-- 	<div class="currecies">
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexeur.svg" alt="">
+			<span class="currency-text">EUR/USD</span>
+		</div>
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexcad.svg" alt="">
+			<span class="currency-text">CAD/JPY</span>
+		</div>
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexusd.svg" alt="">
+			<span class="currency-text">GBP/USD</span>
+		</div>
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexeurchf.svg" alt="">
+			<span class="currency-text">EUR/CHF</span>
+		</div>
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexaud.svg" alt="">
+			<span class="currency-text">AUD/USD</span>
+		</div>
+
+		<div class="currency">
+				<img src="../../../assets/images/Forexnok.svg" alt="">
+			<span class="currency-text">NOK/JPY</span>
+		</div>
+		
+	</div> -->

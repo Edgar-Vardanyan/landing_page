@@ -1,0 +1,57 @@
+		<div class="slide-1-min" >
+			<img src="../../../assets/images/Laptoplaptop.png" alt="">
+			<img class="laptop-content" src="{{dekstopImages[slideIndex]}}" alt="">
+		</div>
+
+		<div class="swiper show-buttons">
+
+			<span class="button right" (click)="slideNext()">
+				<img src="../../../assets/images/arrow.svg" alt="">
+			</span>
+
+
+
+			<swiper
+			[autoHeight]="true"
+			[allowTouchMove]="true"
+			[pagination]="{ clickable: false }" 
+			[navigation]="false"
+			(slideChange)="onSlideChange()"
+			#swiper
+
+    >
+
+			<ng-template swiperSlide *ngFor="let data of swiperData; let i = index">
+
+				<div class="slide-1" >
+					<img src="../../../assets/images/Laptoplaptop.png" alt="">
+					<img class="laptop-content" src="{{dekstopImages[slideIndex]}}" alt="">
+				</div>
+				
+				<div class="text">
+					<span class="data-header">{{data.header}}</span>
+					<span class="data-desc">{{data.description}}</span>
+					<span class="data-price">{{data.price}}</span>
+					<span class="free">
+	
+						<span>
+							<span>FREE</span>
+							<img src="../../../assets/images/Free_marker.svg" alt="">
+						</span>
+						with active <span class="bold">HYCM</span>Account
+					</span>
+				</div>
+
+			</ng-template>
+
+
+
+    </swiper>
+
+    
+			<span class="button left" (click)="slidePrev()">
+				<img src="../../../assets/images/arrow.svg" alt="">
+			</span>
+
+		</div>
+

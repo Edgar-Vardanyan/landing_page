@@ -1,0 +1,41 @@
+<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_3152_13141)">
+<path d="M30.5 4C47.27 4 52.5 10.033 52.5 26C52.5 41.967 47.27 48 30.5 48C13.73 48 8.5 41.967 8.5 26C8.5 10.033 13.73 4 30.5 4Z" fill="#F4F4F4"/>
+</g>
+<mask id="mask0_3152_13141" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="4" width="45" height="44">
+<path d="M30.5 4C47.27 4 52.5 10.033 52.5 26C52.5 41.967 47.27 48 30.5 48C13.73 48 8.5 41.967 8.5 26C8.5 10.033 13.73 4 30.5 4Z" fill="#F4F4F4"/>
+</mask>
+<g mask="url(#mask0_3152_13141)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.5 26C35.082 26 31.5 29.582 31.5 34C31.5 38.418 35.082 42 39.5 42C43.918 42 47.5 38.418 47.5 34C47.5 29.582 43.918 26 39.5 26Z" fill="#BC002D"/>
+</g>
+<g filter="url(#filter1_d_3152_13141)">
+<path d="M30.5 4C40.9675 4 46.939 6.35045 49.949 12C40 17 39 18 35.2 21C31.4 24 29 27 26 31C23.5 34.5 21 39 19.0024 46.5C11.2144 43.85 8.5 37.5029 8.5 26C8.5 10.033 13.73 4 30.5 4Z" fill="white"/>
+</g>
+<mask id="mask1_3152_13141" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="4" width="42" height="43">
+<path d="M30.5 4C40.9675 4 46.939 6.35045 49.949 12C40 17 39 18 35.2 21C31.4 24 29 27 26 31C23.5 34.5 21 39 19.0024 46.5C11.2144 43.85 8.5 37.5029 8.5 26C8.5 10.033 13.73 4 30.5 4Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_3152_13141)">
+<path d="M-3.5 0H9.75L10.2954 1.01176H35.7018L36.25 0H51.5V49H36.25L35.7046 47.9882H10.2954L9.75 49H-3.5V0Z" fill="#D52B1E"/>
+<path d="M8.5 4H33.5V47H8.5V4ZM21.4678 33.1871L21.2339 28.2186C21.2209 27.9167 21.4314 27.6608 21.7043 27.648C21.7406 27.6455 21.7744 27.648 21.8108 27.6557L26.2859 28.5256L25.683 26.6835C25.6336 26.5325 25.6752 26.3637 25.7869 26.2639L30.6882 21.8761L29.5837 21.3056C29.4304 21.2262 29.3524 21.0292 29.407 20.8501L30.3763 17.5574L27.5541 18.22C27.3955 18.2558 27.237 18.1637 27.1746 18.0026L26.6289 16.58L24.4252 19.1923C24.2978 19.3432 24.0821 19.3483 23.947 19.2076C23.8638 19.1206 23.8248 18.9901 23.8482 18.8648L24.9111 12.8088L23.2089 13.8962C23.0478 14.0011 22.8399 13.9397 22.7464 13.7632C22.7438 13.7555 22.7386 13.7478 22.736 13.7401L21 9.98684L19.2718 13.7401C19.1887 13.9243 18.986 14.0011 18.817 13.9064C18.8093 13.9039 18.8041 13.8988 18.7963 13.8936L17.0941 12.8063L18.157 18.8648C18.1933 19.0669 18.0712 19.2639 17.8893 19.3023C17.7749 19.3253 17.658 19.2844 17.58 19.1923L15.3763 16.58L14.8306 18.0026C14.7682 18.1663 14.6071 18.2584 14.4511 18.22L11.6289 17.5574L12.5982 20.8501C12.6502 21.0292 12.5748 21.2237 12.4215 21.3056L11.317 21.8761L16.2183 26.2639C16.33 26.3637 16.3716 26.5351 16.3222 26.6835L15.7193 28.5256L20.1944 27.6557C20.4647 27.6045 20.7193 27.8041 20.7661 28.1009C20.7713 28.1393 20.7739 28.1802 20.7739 28.2186L20.54 33.1871H21.4678Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_3152_13141" x="0.5" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3152_13141"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3152_13141" result="shape"/>
+</filter>
+<filter id="filter1_d_3152_13141" x="7.5" y="3" width="45.4492" height="46.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1" dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3152_13141"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3152_13141" result="shape"/>
+</filter>
+</defs>
+</svg>
